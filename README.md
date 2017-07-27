@@ -1,4 +1,4 @@
 # Dotty文档
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+Dotty 是一个为 Scala 尝试新语言概念以及编译器技术的平台。Dotty 的重点在于简化。
 
