@@ -16,3 +16,8 @@ brew install lampepfl/brew/dotty
 
 ## 选择2：直接通过源代码使用 Dotty
 
+```sh
+$ git clone --recursive https://github.com/lampepfl/dotty.git
+$ cd dotty
+$ sbt managedSources # Needed for IDE import to succeed
+```
