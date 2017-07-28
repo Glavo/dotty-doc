@@ -12,4 +12,4 @@
 brew install lampepfl/brew/dotty
 ```
 
-如果您是 Linux 或 Windows 用户，请下载 Dotty [最新的版本](https://github.com/lampepfl/dotty/releases)。您可以将 dotty 文件夹下的 /bin 目录添加到到 PATH 环境变量中。
+如果您是 Linux 或 Windows 用户，请下载 Dotty [最新的版本](https://github.com/lampepfl/dotty/releases)。您可以将 dotty 文件夹下的 `/bin` 目录添加到到 `PATH` 环境变量中。
