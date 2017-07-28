@@ -33,5 +33,9 @@ Dotty 内置了一个[语言服务器协议](https://github.com/Microsoft/langua
 * 格式化代码（需要与 scalafmt 集成）
 * 快速 debug （可以与 scalafix 集成）
 
+### 目前的限制（将要修复）
+
+* 在启动 IDE 前需要使用 sbt 编译项目。当使用 `sbt launchIDE`
+
 
 
