@@ -33,5 +33,13 @@ Dottydoc 使用 [Liquid](https://shopify.github.io/liquid/) 模板引擎，并�
 
 在 Dottydoc 中，所有模板都可以包含一个 YAML 头信息。头信息会被解析，然后通过 Liquid 引擎放入可用的 `page` 变量中。
 
-为了执行模板拓展，Dottydoc 会在 头信息里的 `layout` 中进行寻找
+为了执行模板拓展，Dottydoc 会在 头信息里的 `layout` 中进行寻找。下面是使用模板系统的简单例子：
+
+```html
+---
+layout: main
+---
+
+<h1>Hello world!</h1>
+```
 
