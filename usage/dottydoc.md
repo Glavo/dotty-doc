@@ -29,3 +29,9 @@ _site/docs/getting-started.html
 
 ## 使用现有的模板与布局
 
+Dottydoc 使用 [Liquid](https://shopify.github.io/liquid/) 模板引擎，并提供了很多特定于 Scala 文档的自定义过滤器以及标签。
+
+在 Dottydoc 中，所有模板都可以包含一个 YAML 头信息。头信息会被解析，然后通过 Liquid 引擎放入可用的 `page` 变量中。
+
+为了执行模板拓展，Dottydoc 会在 头信息里的 `layout` 中进行寻找
+
