@@ -10,7 +10,7 @@ Dotty 内置了一个[语言服务器协议](https://github.com/Microsoft/langua
 
 1. 安装 [Visual Studio Code](https://code.visualstudio.com/)
 
-2. 确保 Visual Studio Code 的二进制文件 `code` 在您的 `$PATH` 中，这使您能够在终端中使用 `code` 命令打开 IDE。这在 Mac 以外的系统中都是默认选项。如果您在使用 Mac 系统，请遵照以下说明：[https : //code.visualstudio.com/docs/setup/mac\#\_command-line](/https : //code.visualstudio.com/docs/setup/mac#_command-line)。
+2. 确保 Visual Studio Code 的二进制文件 `code` 在您的 `$PATH` 中，这使您能够在终端中使用 `code` 命令打开 IDE。这在 Mac 以外的系统中都是默认选项。如果您在使用 Mac 系统，请遵照以下说明：[https://code.visualstudio.com/docs/setup/mac\#\_command-line](https://code.visualstudio.com/docs/setup/mac#_command-line)。
 
 ## 状态
 
@@ -42,5 +42,4 @@ Dotty 内置了一个[语言服务器协议](https://github.com/Microsoft/langua
 ## 反馈
 
 您可以在 [https://github.com/lampepfl/dotty/issues](https://github.com/lampepfl/dotty/issues) 上报告问题，也可以在 [Dotty gitter 频道](https://gitter.im/lampepfl/dotty)上使用 chat 功能。
-
 
