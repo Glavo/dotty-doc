@@ -1,5 +1,5 @@
 # Summary
 
 * [ Dotty文档](README.md)
-* [First Chapter](chapter1.md)
+* [用法](usage/README.md)
 
