@@ -6,4 +6,4 @@
 
 ##选项1：安装 Dotty
 
-如果您是 Mac 用户
+如果您是 Mac 用户，则可以使用 [brew](https://brew.sh/) 安装 dotty
