@@ -29,3 +29,7 @@ $ sbt
 > dotr HelloWorld
 hello world
 ```
+
+## 试用 Dotty
+
+可以在浏览器中使用 [Scastie](https://scastie.scala-lang.org/?target=dotty) 进行尝试。
