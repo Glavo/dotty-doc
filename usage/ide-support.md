@@ -35,7 +35,7 @@ Dotty 内置了一个[语言服务器协议](https://github.com/Microsoft/langua
 
 ### 目前的限制（将要修复）
 
-* 在启动 IDE 前需要使用 sbt 编译项目。当使用 `sbt launchIDE` 命令
+* 在启动 IDE 前需要使用 sbt 编译项目（使用 `sbt launchIDE` 命令启动 IDE 时将会自动完成）。
 
 
 
