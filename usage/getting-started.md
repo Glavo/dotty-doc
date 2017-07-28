@@ -33,3 +33,7 @@ hello world
 ## 试用 Dotty
 
 可以在浏览器中使用 [Scastie](https://scastie.scala-lang.org/?target=dotty) 进行尝试。
+
+## 创建一个 Dotty 项目
+
+创建一个 dotty 项目最快的方式是使用 [sbt(0.13.5+)](http://www.scala-sbt.org/)。
