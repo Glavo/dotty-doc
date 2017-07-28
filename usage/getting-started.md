@@ -12,4 +12,4 @@
 brew install lampepfl/brew/dotty
 ```
 
-如果您是 Linux 或 Windows 用户，请下载 Dotty 最新构建版。可选地将文件夹的路径添加bin/到系统环境变量PATH。
+如果您是 Linux 或 Windows 用户，请下载 Dotty [最新的版本](https://github.com/lampepfl/dotty/releases)。可选地将文件夹的路径添加bin/到系统环境变量PATH。
