@@ -22,3 +22,4 @@ $ cd dotty
 $ sbt managedSources # Needed for IDE import to succeed
 ```
 
+Dotty 提供了一个标准的 sbt 构建：
