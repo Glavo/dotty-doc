@@ -8,6 +8,7 @@
 
 如果您是 Mac 用户，则可以使用 [brew](https://brew.sh/) 安装 dotty
 
-```
+``` sh
 brew install lampepfl/brew/dotty
 ```
+
