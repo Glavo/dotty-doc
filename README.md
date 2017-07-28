@@ -62,8 +62,10 @@ Dotty 是一个为 Scala 尝试新语言概念以及编译器技术的平台。D
 * 内幕
     * 后端
     * 类路径
-    * 核心数据类型
+    * 核心数据结构
     * Contexts
+    * Dotc vs Scalac
+    * Dotty 中的高阶类型
     
         
         
