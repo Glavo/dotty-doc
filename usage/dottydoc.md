@@ -87,3 +87,27 @@ Dottydoc 还允许和 Jekyll 一样简单的搭建博客。博客的帖子放在
 
 ## 导入
 
+在 Liquid 中，`include` 标签用来在模板中包含其他模板。
+
+```html
+<div class="container">
+    {% include "sidebar.html" %}
+</div>
+```
+
+如果导入的是 `html` 文件，则可以省略扩展名。
+
+被导入文件需要保存在网站根目录下的 `_includes` 文件夹下。Dottydoc 提供了一些默认导入文件，用户指定的导入文件可以覆盖掉它们。
+
+导入文件“sidebar.html”的示例结构：
+
+```
+├── _includes
+│   └── sidebar.html
+├── blog
+│   ├── _posts
+│   │   └── 2016-12-05-implicit-function-types.md
+│   └── index.md
+└── index.html
+```
+
