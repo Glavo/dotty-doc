@@ -51,3 +51,8 @@ $ sbt new lampepfl/dotty-cross.g8
 示例项目请参见 [Dotty 示例项目](https://github.com/lampepfl/dotty-example-project)。
 
 ## Bash 脚本
+
+如果您已经在本例克隆了 [Dotty 仓库](https://github.com/lampepfl/dotty)，请在 `.bash_profile` 文件中添加以下内容：
+```bash
+export PATH=$HOME/dotty/bin:$PATH
+```
