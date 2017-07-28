@@ -16,7 +16,7 @@ Dotty 内置了一个[语言服务器协议](https://github.com/Microsoft/langua
 
 ### 完全支持的功能
 
-* 类型检查并显示编译器错误/警告
+* 类型检查，显示编译时错误/警告
 * 悬停时类型提示
 * 跳转到定义处（在项目中）
 * 查找全部用例
@@ -37,6 +37,10 @@ Dotty 内置了一个[语言服务器协议](https://github.com/Microsoft/langua
 
 * 在启动 IDE 前需要使用 sbt 编译项目（使用 `sbt launchIDE` 命令启动 IDE 时将会自动完成）。
 * IDE 启动后，IDE 中未打开的源文件不应该在其他编辑器中进行修改，否则 IDE 将无法识别这些修改。
+* 只会提示类型错误/警告，而不是全部编译时错误/警告
 
+## 反馈
+
+您可以在 [https://github.com/lampepfl/dotty/issues](https://github.com/lampepfl/dotty/issues) 上报告问题，也可以在 [Dotty gitter 频道](https://gitter.im/lampepfl/dotty)上使用 chat 功能。
 
 
