@@ -3,5 +3,5 @@
 * [开始](getting-started.md)
 * [SBT 项目](sbt-project.md)
 * [IDE 支持](ide-support.md)
-* CBT 项目
+* [CBT 项目](cbt-projects.md)
 * Dottydoc
