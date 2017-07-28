@@ -61,5 +61,32 @@ $ sbt new lampepfl/dotty-cross.g8
 export PATH=$HOME/dotty/bin:$PATH
 ```
 
+然后您就能直接在终端执行相应的命令：
+
+```bash
+# Compile code using Dotty
+$ dotc tests/pos/HelloWorld.scala
+
+# Run it with the proper classpath
+$ dotr HelloWorld
+```
+
+## 使用 REPL
+
+```bash
+$ sbt
+> repl
+Welcome to Scala.next (pre-alpha)  (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_101).
+Type in expressions to have them evaluated.
+Type :help for more information.
+scala>
+```
+
+或者使用 bash 命令：
+
+```bash
+$ dotr
+```
+
 
 
