@@ -69,6 +69,9 @@ Dotty 是一个为 Scala 尝试新语言概念以及编译器技术的平台。D
     * Dotty 总结构
     * Dotc 的时间概念
     * Scala 语法摘要
+    * 类型系统
+* 资源 
+    * Talks
     
     
         
