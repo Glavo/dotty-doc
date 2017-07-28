@@ -52,7 +52,7 @@ Dotty 是一个为 Scala 尝试新语言概念以及编译器技术的平台。D
         * XML 字面量
         * 自动应用
         * 弱一致
-* Contributing
+* 贡献
     * 开始
     * 工作流程
     * Eclipse
