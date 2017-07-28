@@ -1,14 +1,14 @@
 # 开始
 
 ## 基础
-请确保您在使用 Java8 或者更高的版本。`java -version` 的输出中应该包含 `1.8` 。
 
+请确保您在使用 Java8 或者更高的版本。`java -version` 的输出中应该包含 `1.8` 。
 
 ## 选择1：安装 Dotty
 
 如果您是 Mac 用户，则可以使用 [brew](https://brew.sh/) 安装 dotty
 
-``` sh
+```bash
 brew install lampepfl/brew/dotty
 ```
 
@@ -16,13 +16,14 @@ brew install lampepfl/brew/dotty
 
 ## 选择2：直接通过源代码使用 Dotty
 
-```sh
+```bash
 $ git clone --recursive https://github.com/lampepfl/dotty.git
 $ cd dotty
 $ sbt managedSources # Needed for IDE import to succeed
 ```
 
 Dotty 提供了一个标准的 sbt 构造：编译，运行以及启动 repl 可以在 sbt 内完成：
+
 ```sh
 $ sbt
 > dotc tests/pos/HelloWorld.scala
@@ -36,15 +37,17 @@ hello world
 
 ## 创建一个 Dotty 项目
 
-创建一个 dotty 项目最快的方式是使用 [sbt(0.13.5+)](http://www.scala-sbt.org/)。
+创建一个 dotty 项目最快的方式是使用 [sbt\(0.13.5+\)](http://www.scala-sbt.org/)。
 
 创建一个 dotty 项目：
+
 ```sh
 $ sbt new lampepfl/dotty.g8
 ```
 
 或者创建一个与 Scala 2 交叉编译的 dotty 项目：
-```sh
+
+```bash
 $ sbt new lampepfl/dotty-cross.g8
 ```
 
@@ -53,6 +56,10 @@ $ sbt new lampepfl/dotty-cross.g8
 ## Bash 脚本
 
 如果您已经在本例克隆了 [Dotty 仓库](https://github.com/lampepfl/dotty)，请在 `.bash_profile` 文件中添加以下内容：
+
 ```bash
 export PATH=$HOME/dotty/bin:$PATH
 ```
+
+
+
