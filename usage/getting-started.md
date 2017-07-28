@@ -40,5 +40,10 @@ hello world
 
 创建一个 dotty 项目：
 ```sh
+$ sbt new lampepfl/dotty.g8
+```
 
+或者创建一个与 Scala 2 交叉编译的 dotty 项目：
+```sh
+$ sbt new lampepfl/dotty-cross.g8
 ```
