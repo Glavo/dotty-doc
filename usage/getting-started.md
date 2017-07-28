@@ -22,4 +22,10 @@ $ cd dotty
 $ sbt managedSources # Needed for IDE import to succeed
 ```
 
-Dotty 提供了一个标准的 sbt 构建：
+Dotty 提供了一个标准的 sbt 构造：编译，运行以及启动 repl 可以在 sbt 内完成：
+```sh
+$ sbt
+> dotc tests/pos/HelloWorld.scala
+> dotr HelloWorld
+hello world
+```
