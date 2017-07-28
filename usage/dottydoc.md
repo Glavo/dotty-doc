@@ -113,5 +113,21 @@ Dottydoc 还允许和 Jekyll 一样简单的搭建博客。博客的帖子放在
 
 ## 侧边栏
 
-Dottydoc 也允许您创建自定义目录，您可以通过覆盖 `toc.html` 导入文件来实现，也可以通过 `sidebar.yml` 文件指定一个站点
+Dottydoc 也允许您创建自定义目录，您可以通过覆盖 `toc.html` 导入文件来实现，也可以通过 `sidebar.yml` 文件指定一个站点根目录下的文件：
+
+```yaml
+sidebar:
+    - title: Blog
+      url: blog/index.html
+    - title: Docs
+      url: docs/index.html
+    - title: Usage
+      subsection:
+        - title: Dottydoc
+          url: docs/usage/dottydoc.html
+        - title: sbt-projects
+          url: docs/usage/sbt-projects.html
+```
+
+`sidebar` 的管理是强制性的
 
