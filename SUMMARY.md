@@ -5,3 +5,4 @@
     * [开始](usage/getting-started.md)
     * [SBT 项目](usage/sbt-project.md)
     * [IDE 支持](usage/ide-support.md)
+    * [CBT 项目](usage/cbt-projects.md)
