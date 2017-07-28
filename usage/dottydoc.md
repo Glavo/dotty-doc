@@ -165,3 +165,11 @@ Dottydoc 使用以“$”结尾的名称来代表 `object` 。要链接到 `List
 [Object.range](scala.collection.immutable.List$.range)
 ```
 
+## 呈现文档字符串
+
+有时候您需要在文档中复制 API 字符串，Dottydoc 能够轻松的做到这一点：
+
+```
+{% docstring "scala.collection.immutable.Seq" %}
+```
+
