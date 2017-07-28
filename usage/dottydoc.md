@@ -129,5 +129,5 @@ sidebar:
           url: docs/usage/sbt-projects.html
 ```
 
-`sidebar` 的管理是强制性的
+`sidebar` 键是必要的，同样，对于每个元素， `title` 也是必要的。
 
