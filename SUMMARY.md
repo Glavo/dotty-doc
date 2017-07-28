@@ -6,3 +6,4 @@
     * [SBT 项目](usage/sbt-projects.md)
     * [IDE 支持](usage/ide-support.md)
     * [CBT 项目](usage/cbt-projects.md)
+    * [Dottydoc](usage/dottydoc.md)
