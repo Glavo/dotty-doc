@@ -178,3 +178,6 @@ Dottydoc 使用以“$”结尾的名称来代表 `object` 。要链接到 `List
 ### 其他拓展
 
 我们很乐意聆听您的想法，以便您生成所需的文档，您的意见是什么？也许您想要渲染方法的定义或者成员？[提交 issue](https://github.com/lampepfl/dotty/issues/new) 让我们知道吧！
+
+## 默认布局
+
