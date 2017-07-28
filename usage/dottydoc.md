@@ -129,5 +129,17 @@ sidebar:
           url: docs/usage/sbt-projects.html
 ```
 
-`sidebar` 键是必要的，同样，对于每个元素， `title` 也是必要的。
+`sidebar` 键是必要的，同样，对于每个元素， `title` 也是必要的。默认列表允许有子项——目前列表的深度不能超过 2 ，我们也希望能够移除这种限制，欢迎贡献代码！
+
+具有 `subsection` 键的项目可能在当前格式中没有 `url` 键。这个网站的样例的目录结构可以是：
+
+```
+├── blog
+│   └── _posts
+│       └── 2016-12-05-implicit-function-types.md
+├── index.html
+└── sidebar.yml
+```
+
+
 
