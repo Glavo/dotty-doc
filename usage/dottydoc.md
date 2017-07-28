@@ -69,3 +69,21 @@ layout: main
 ```
 
 您也可用使用 Dottydoc 附带的默认布局。
+
+## 博客
+
+Dottydoc 还允许和 Jekyll 一样简单的搭建博客。博客的帖子放在 `./blog/_posts` 目录中，文件名必须是 `year-month-day-title.{md, html}` 的形式。
+
+一个简单的例子：
+
+```
+├── blog
+│   └── _posts
+│       └── 2016-12-05-implicit-function-types.md
+└── index.html
+```
+
+每篇博文都应该包含头信息以及 `layout` 声明来采用模板。
+
+## 导入
+
