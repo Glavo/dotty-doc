@@ -6,11 +6,11 @@ Dotty 内置了一个[语言服务器协议](https://github.com/Microsoft/langua
 
 想在您的 Scala 中使用 Dotty，需要先编译 Dotty，请按照 [https://github.com/lampepfl/dotty-example-project](https://github.com/lampepfl/dotty-example-project) 上的说明操作。
 
-
-
 ## 用法
 
+1. 安装 [Visual Studio Code](https://code.visualstudio.com/)
 
+2. 确保 Visual Studio Code 的二进制文件 `code` 在您的 `$PATH` 中，这使您能够在终端中使用 `code`
 
 
 
