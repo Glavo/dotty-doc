@@ -143,3 +143,25 @@ sidebar:
 
 
 
+## Dottydoc 的具体标签以及行为
+
+### 链接到 API
+
+如果您想在 markdown 文件中链接到 `scala.collection.immutable.Seq`，您可以简单的链接到它的全限定名：
+
+```markdown
+[Seq](scala.collection.immutable.Seq)
+```
+
+也可以用相同的方式链接到类的成员：
+
+```markdown
+[Seq.isEmpty](scala.collection.immutable.Seq.isEmpty)
+```
+
+Dottydoc 使用以“$”结尾的名称来代表 `object` 。要链接到 `List.range`，你可以这样写：
+
+```markdown
+[Object.range](scala.collection.immutable.List$.range)
+```
+
