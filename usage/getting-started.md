@@ -47,3 +47,5 @@ $ sbt new lampepfl/dotty.g8
 ```sh
 $ sbt new lampepfl/dotty-cross.g8
 ```
+
+示例项目请参见 [Dotty 示例项目](https://github.com/lampepfl/dotty-example-project)。
