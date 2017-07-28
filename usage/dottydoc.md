@@ -181,3 +181,14 @@ Dottydoc 使用以“$”结尾的名称来代表 `object` 。要链接到 `List
 
 ## 默认布局
 
+### main.html
+
+所有其他布局的包装器，包含了使用了 JavaScript 以及 CSS 的默认 `<head>` 标签。
+
+#### 变量
+
+* `context`：放置在 `<body>` 标签中
+* `extraCSS`：网站的拓展 CSS 样式表的相对路径列表
+* `extraJS`：网站的拓展 JavaScript 脚本的相对路径列表
+* `title`：页面的 `<title>` 标签
+
