@@ -205,3 +205,8 @@ Dottydoc 使用以“$”结尾的名称来代表 `object` 。要链接到 `List
 
 ### api-page.html
 
+最后两种布局是 Dottydoc 特殊处理的。API 页面的输入是一个文档[实体](http://dotty.epfl.ch/api/dotty/tools/dottydoc/model/Entity.html)。可以通过改变此页面来更改 Dottydoc 改变显示 API 文档的方式。
+
+### blog-page.html
+
+一个博客页面通过使用 `./blog/_posts/` 下的文件作为输入来构建博客。
