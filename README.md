@@ -7,7 +7,7 @@ Dotty 是一个为 Scala 尝试新语言概念以及编译器技术的平台。D
 ## 目录
 
 * 博客
-* [用法](usage/README.md)
+* 用法
     * [开始](usage/getting-started.md)
     * [SBT 项目](usage/sbt-projects.md)
     * [IDE 支持](usage/ide-support.md)
