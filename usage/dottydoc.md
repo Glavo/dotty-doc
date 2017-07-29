@@ -210,3 +210,8 @@ Dottydoc 使用以“$”结尾的名称来代表 `object` 。要链接到 `List
 ### blog-page.html
 
 一个博客页面通过使用 `./blog/_posts/` 下的文件作为输入来构建博客。
+
+## 默认导入
+
+* `scala-logo.svg`：svg 格式的 Dotty 的版本信息
+* `toc.html`：默认列表的模板
