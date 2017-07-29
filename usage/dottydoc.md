@@ -165,8 +165,6 @@ Dottydoc 使用以“$”结尾的名称来代表 `object` 。要链接到 `List
 [Object.range](scala.collection.immutable.List$.range)
 ```
 
-
-
 ###  呈现文档字符串
 
 有时候您需要在文档中复制 API 字符串，Dottydoc 能够轻松的做到这一点：
@@ -191,4 +189,19 @@ Dottydoc 使用以“$”结尾的名称来代表 `object` 。要链接到 `List
 * `extraCSS`：网站的拓展 CSS 样式表的相对路径列表
 * `extraJS`：网站的拓展 JavaScript 脚本的相对路径列表
 * `title`：页面的 `<title>` 标签
+
+### sidebar.html
+
+侧边栏使用 `main.html` 作为它的父布局。它会添加从 YAML 文件（如果存在）生成的侧边栏，以及项目 API 的目录。
+
+#### 变量
+
+* `content`：放置在 class 设定为 `content-body` 的 `<div>` 标签内
+* `docs`：从提供的源文件生成 API 文档，默认情况下已经被指定，不需要显式设定
+
+### doc-page.html
+
+文档页面用于需要使用侧边栏的页面，并提供导入 `{{ content }}` 的最小包装。
+
+### api-page.html
 
