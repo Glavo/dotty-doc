@@ -1,6 +1,6 @@
 # 交集类型
 
-`&` 操作符用于类型中创建交集类型。
+`&` 操作符用于类型时，会创建交集类型。
 
 ```scala
 trait Resettable {
@@ -43,4 +43,3 @@ class C extends A with B {
   def children: List[A & B] = ???
 }
 ```
-
