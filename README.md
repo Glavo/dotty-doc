@@ -16,7 +16,7 @@ Dotty 是一个为 Scala 尝试新语言概念以及编译器技术的平台。D
 * 参考
     * 新类型
         * [交集类型](reference/intersection-types.md)
-        * 并集类型
+        * [并集类型](reference/union-types.md)
         * 类型 lambda
         * 隐式函数类型
         * 幽灵类型

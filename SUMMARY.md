@@ -7,3 +7,6 @@
     * [IDE 支持](usage/ide-support.md)
     * [CBT 项目](usage/cbt-projects.md)
     * [Dottydoc](usage/dottydoc.md)
+* 参考
+    * [交集类型](reference/intersection-types.md)
+    * [并集类型](reference/union-types.md)
