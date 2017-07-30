@@ -21,4 +21,17 @@ def f(x: Resettable & Growable[String]) = {
 
 交集类型 `A & B` 的成员是 `A` 与 `B` 包含的所有成员。例如 `Resettable & Growable[String]` 具有成员方法 `reset` 和 `add`。
 
-如果一个成员同时存在于 `A` 与 `B` 中，那么
+如果一个成员同时存在于 `A` 与 `B` 中，那么 `A & B` 中它的类型是 `A` 中与 `B` 中它的类型的交集类型。例如，对于下面的代码：
+
+```scala
+trait A {
+  def children: List[A]
+}
+trait B {
+  def children: List[B]
+}
+val x: A & B = new C
+val ys: List[A & B] = x.children
+```
+
+`A & B` 中 `children `的类型是 `A` 中与 `B` 中它的类型的交集类型 `List[A] & Lst[B]`，因为 `List` 是协变的，所以能进一步简化为 `List[A & B]`。
