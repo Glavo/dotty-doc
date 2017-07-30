@@ -35,3 +35,12 @@ val ys: List[A & B] = x.children
 ```
 
 `A & B` 中 `children `的类型是 `A` 中与 `B` 中它的类型的交集类型 `List[A] & Lst[B]`，因为 `List` 是协变的，所以能进一步简化为 `List[A & B]`。
+
+人们可能想知道编译器是如何从 `List[A]` 和 `List[B]` 中提出 `List[A & B]` 这个类型的定义。这个问题的答案是不需要。`A & B` 至少表示对类型的一组约束，在_构建_值的时候，必须保证所有被继承的成员都被正确的定义了。因此，如果定义了这个继承自 `A` 以及 `B` 的类 `C`，那么在 `C` 中要定义满足这组约束的方法 `children`。
+
+```scala
+class C extends A with B {
+  def children: List[A & B] = ???
+}
+```
+
