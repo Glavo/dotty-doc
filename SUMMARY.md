@@ -11,3 +11,4 @@
     * [交集类型](reference/intersection-types.md)
     * [并集类型](reference/union-types.md)
     * [类型 lambda](reference/type-lambdas.md)
+    * [隐式函数类型](reference/implicit-function-types.md)
