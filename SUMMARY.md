@@ -12,4 +12,4 @@
     * [并集类型](reference/union-types.md)
     * [类型 lambda](reference/type-lambdas.md)
     * [隐式函数类型](reference/implicit-function-types.md)
-    * [幽灵类型](reference/phantom-types.md)
+    * [幻象类型](reference/phantom-types.md)
