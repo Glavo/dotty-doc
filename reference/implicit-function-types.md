@@ -67,3 +67,40 @@ class Row {
 case class Cell(elem: String)
 ```
 
+`table`，`row` 和 `cell` 构建器方法可以利用隐函数类型定义，以避免样板管道代码。
+
+```scala
+def table(init: implicit Table => Unit) = {
+  implicit val t = new Table
+  init
+  t
+}
+
+def row(init: implicit Row => Unit)(implicit t: Table) = {
+  implicit val r = new Row
+  init
+  t.add(r)
+}
+
+def cell(str: String)(implicit r: Row) =
+  r.add(new Cell(str))
+```
+
+这样的代码会被自动拓展为下面的代码：
+
+```scala
+table { implicit $t: Table =>
+  row { implicit $r: Row =>
+    cell("top left")($r)
+    cell("top right")($r)
+  }($t)
+  row { implicit $r: Row =>
+    cell("botttom left")($r)
+    cell("bottom right")($r)
+  }($t)
+}
+```
+
+## 参考
+
+想要了解更多信息，请参见[博客文章](https://www.scala-lang.org/blog/2016/12/07/implicit-function-types.html)。
